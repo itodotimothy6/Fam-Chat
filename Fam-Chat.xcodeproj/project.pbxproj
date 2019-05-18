@@ -18,6 +18,7 @@
 		8509FA92228F2A7F00D4DD02 /* CustomMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509FA90228F2A7F00D4DD02 /* CustomMessageCell.swift */; };
 		8509FA93228F2A7F00D4DD02 /* CustomMessageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8509FA91228F2A7F00D4DD02 /* CustomMessageCell.xib */; };
 		8509FA9B228F90E000D4DD02 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8509FA9A228F90E000D4DD02 /* GoogleService-Info.plist */; };
+		8509FA9E228F998F00D4DD02 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8509FA9D228F998F00D4DD02 /* Message.swift */; };
 		C66F8CD480BA2C09059D2571 /* Pods_Fam_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAD5B3E6D6BF0B97DE479967 /* Pods_Fam_Chat.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,6 +37,7 @@
 		8509FA90228F2A7F00D4DD02 /* CustomMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomMessageCell.swift; sourceTree = "<group>"; };
 		8509FA91228F2A7F00D4DD02 /* CustomMessageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomMessageCell.xib; sourceTree = "<group>"; };
 		8509FA9A228F90E000D4DD02 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8509FA9D228F998F00D4DD02 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		AAD5B3E6D6BF0B97DE479967 /* Pods_Fam_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fam_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3A54576DD42B3AD4F45A663 /* Pods-Fam-Chat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fam-Chat.release.xcconfig"; path = "Target Support Files/Pods-Fam-Chat/Pods-Fam-Chat.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -81,6 +83,7 @@
 		8509FA72228E75CA00D4DD02 /* Fam-Chat */ = {
 			isa = PBXGroup;
 			children = (
+				8509FA9C228F996D00D4DD02 /* Model */,
 				8509FA8E228F292800D4DD02 /* View */,
 				8509FA8D228F234E00D4DD02 /* Controller */,
 				8509FA73228E75CA00D4DD02 /* AppDelegate.swift */,
@@ -121,13 +124,20 @@
 			path = "Custom Cell";
 			sourceTree = "<group>";
 		};
+		8509FA9C228F996D00D4DD02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8509FA9D228F998F00D4DD02 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		9D714C79B7C0A8F0A596230A /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				5253F26525F2D1846B864333 /* Pods-Fam-Chat.debug.xcconfig */,
 				B3A54576DD42B3AD4F45A663 /* Pods-Fam-Chat.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -269,6 +279,7 @@
 				8509FA92228F2A7F00D4DD02 /* CustomMessageCell.swift in Sources */,
 				8509FA8C228F233400D4DD02 /* ChatViewController.swift in Sources */,
 				8509FA8A228F231200D4DD02 /* RegisterViewController.swift in Sources */,
+				8509FA9E228F998F00D4DD02 /* Message.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -892,7 +892,6 @@
             break;
         }
         case kCGColorSpaceModelXYZ:
-        <#code#>
         break;
     }
 }

@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  WelcomeViewController.swift
 //  Fam-Chat
 //
 //  Created by Timothy Itodo on 5/17/19.
@@ -8,18 +8,11 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-    
-    @IBAction func loginButtonPressed(_ sender: Any) {
-    }
-    
-    @IBAction func registerButtonPressed(_ sender: Any) {
-    }
-    
+
 }
 
